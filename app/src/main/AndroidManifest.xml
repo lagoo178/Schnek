@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.game.schnek">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Account" />
+        <activity android:name=".HowPlay" />
+        <activity
+            android:name=".MainMenu"
+            android:label="@string/app_name">
+
+        </activity>
+        <activity
+            android:name=".ClassicSnake"
+            android:label="@string/title_activity_classic_snake"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".NoWallsSnake"
+            android:label="@string/title_activity_no_walls_snake"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BombSnake"
+            android:label="@string/title_activity_bomb_snake"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Settings"
+            android:label="@string/title_activity_settings" />
+        <activity
+            android:name=".ClassicScore"
+            android:label="@string/title_activity_classic_score"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".NoWallsScore"
+            android:label="@string/title_activity_no_walls_score"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BombScore"
+            android:label="@string/title_activity_bomb_score"
+            android:theme="@style/AppTheme.NoActionBar" />
+    </application>
+
+</manifest>

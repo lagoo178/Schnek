@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Schnek</string>
+    <string name="action_settings">Settings</string>
+    <string name="login_title">Schnek</string>
+    <string name="login_description">Game</string>
+    <string name="title_snake_left">|</string>
+    <string name="title_snake_middle"> SCHNEK </string>
+    <string name="title_snake_right">|</string>
+    <string name="title_activity_classic_snake">Classic Mode</string>
+    <string name="title_activity_no_walls_snake">No Walls Mode</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_no_walls_score">No Walls Score</string>
+    <string name="title_activity_classic_score">Classic Score</string>
+    <string name="title_activity_bomb_snake">HARD Mode</string>
+    <string name="title_activity_bomb_score">HARD Score</string>
+    <string name="create_profile">CREATE PROFILE</string>
+    <string name="name">Username:</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="surname">Name:</string>
+    <string name="enter_your_surname">Enter your name</string>
+    <string name="phone_number">Phone Number:</string>
+    <string name="enter_your_phone_number">Enter your phone number</string>
+    <string name="e_mail">E-mail:</string>
+    <string name="email_address">Email Address</string>
+    <string name="user_name">User Name</string>
+    <string name="profile">Profile</string>
+    <string name="dies">###</string>
+    <string name="mail_address">Mail Adress</string>
+    <string name="log_out">Log Out</string>
+    <string name="ok">OK</string>
+    <string name="create_account"><font color="#00ff00">text</font></string>
+    <string name="app_manual"><![CDATA[•	Classic Mode
+1.	Open the Schnek app
+2.	Tap the Classic button
+3.	Play the game !
+4.	(Optional) You could change the control setting by tapping the setting button on the main menu. There’s 2 type of controls that you could choose, Button and Swipe controls.
+*Game will be over under some conditions. If the snake hit a wall the game will end, and if the snake accidentally eat itself the game will end.
+•	No Walls Mode
+1.	Open the Schnek app
+2.	Tap the No Walls button
+3.	Play the game !
+4.	(Optional) ) You could change the control setting by tapping the setting button on the main menu. There’s 2 type of controls that you could choose, Button and Swipe controls.
+*Game will be over under one condition. If the snake accidentally eat itself the game will end.
+•	Extreme Mode
+1.	Open the Schnek app
+2.	Tap the Extreme button
+3.	Play the game !
+4.	(Optional) ) You could change the control setting by tapping the setting button on the main menu. There’s 2 type of controls that you could choose, Button and Swipe controls.
+*Game will be over under some conditions. If the snake hit a bomb (red) the game will end, and if the snake accidentally eat itself the game will end.
+]]></string>
+</resources>

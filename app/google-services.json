@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "225013797332",
+    "firebase_url": "https://schnek-e5498.firebaseio.com",
+    "project_id": "schnek-e5498",
+    "storage_bucket": "schnek-e5498.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:225013797332:android:ed5e90d08c0b0051608641",
+        "android_client_info": {
+          "package_name": "com.game.schnek"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "225013797332-iqn8mlef9k7286boik77hhkr9l2g3a27.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6BVTzNvQybWC0kMKWSOvOu-EgxchybM0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "225013797332-iqn8mlef9k7286boik77hhkr9l2g3a27.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

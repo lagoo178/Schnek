@@ -1,0 +1,60 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion "29.0.3"
+
+    defaultConfig {
+        applicationId "com.game.schnek"
+        minSdkVersion 24
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: "libs", include: ["*.jar"])
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation 'androidx.recyclerview:recyclerview:1.1.0'
+    implementation 'com.google.android.material:material:1.1.0'
+    implementation 'com.google.firebase:firebase-analytics:17.4.3'
+    implementation 'com.google.firebase:firebase-auth:19.3.1'
+    implementation 'com.google.firebase:firebase-database:19.3.0'
+    implementation 'com.google.firebase:firebase-storage:19.1.1'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+
+
+    implementation 'com.squareup.picasso:picasso:2.71828'
+    //https://github.com/square/picasso (Apache License 2.0)
+    implementation 'com.squareup.okhttp:okhttp:2.7.5'
+    //https://github.com/square/okhttp (Apache License 2.0)
+    implementation 'de.hdodenhof:circleimageview:2.2.0'
+    //https://github.com/hdodenhof/CircleImageView (Apache License 2.0)
+    implementation 'com.sothree.slidinguppanel:library:3.4.0'
+    //https://github.com/umano/AndroidSlidingUpPanel (Apache License 2.0)
+    implementation 'com.github.dmytrodanylyk.android-process-button:library:1.0.4'
+    //https://github.com/dmytrodanylyk/android-process-button (MIT)
+    implementation 'com.github.XunMengWinter:CircularAnim:0.3.4'
+    //https://github.com/XunMengWinter/CircularAnim (No license)
+    implementation 'com.github.florent37:diagonallayout:1.0.8'
+    //https://github.com/florent37/DiagonalLayout (Apache License 2.0)
+    implementation 'com.flaviofaria:kenburnsview:1.0.7'
+    //https://github.com/flavioarfaria/KenBurnsView (Apache License 2.0)
+    implementation 'me.jahirfiquitiva:FABsMenu:1.1.1'
+    //https://github.com/jahirfiquitiva/FABsMenu (Apache License 2.0)
+
+}
